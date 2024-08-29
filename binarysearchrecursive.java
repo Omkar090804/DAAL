@@ -39,12 +39,12 @@ public class BinarySearch {
         System.out.println("Which element is to be searched?");
         int val = sc.nextInt();
 
-        int res = binarySearch(arr, 0, n - 1, val);
+        int result = binarySearch(arr, 0, n - 1, val);
 
-        if (res == -1) {
+        if (result == -1) {
             System.out.println("Element not present");
         } else {
-            System.out.println("Element present at index " + res);
+            System.out.println("Element present at index " + result);
         }
     }
 }
